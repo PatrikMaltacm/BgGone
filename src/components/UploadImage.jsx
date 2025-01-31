@@ -61,7 +61,7 @@ function UploadImage() {
         <h1 className="title">Enviar Imagem</h1>
         <form onSubmit={handleSubmit} className="form">
           <label htmlFor="image" className="upload-label">
-            <span>Selecione uma imagem para remover o fundo</span>
+            <span>Clique para selecionar a imagem que deseja remover o fundo</span>
           </label>
           <input
             type="file"
@@ -73,7 +73,7 @@ function UploadImage() {
           />
           <button type="submit" className="input-button" onClick={()=>{
             document.getElementById("load").style.visibility = "visible"
-          }}>Enviar Imagem</button>
+          }}>Clique para remover o fundo</button>
         </form>
         
         <div className="loading-container">
