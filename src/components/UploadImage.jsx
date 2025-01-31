@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 function UploadImage() {
   const [imageUrl, setImageUrl] = useState('');
-  const url = "https://bggoneapi.up.railway.app/";
+  const url = "https://bggoneapi.up.railway.app";
 
   const handleSubmit = async (event) => {
     event.preventDefault();
